@@ -1,0 +1,25 @@
+$navBarHeight: 64px;
+
+
+
+
+.navBar {
+    background-color: #222B45;
+    height: $navBarHeight;
+}
+
+.navItem {
+    width: fit-content !important;
+    height: $navBarHeight;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;   
+    padding: 0 10px 0 14px;
+}
+
+.navItem.selected {
+    cursor: default;
+    background-color: #181E30;
+}
